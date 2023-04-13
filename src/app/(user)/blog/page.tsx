@@ -33,8 +33,10 @@ export default async function Blog() {
   const posts = await client.fetch(query);
 
   return (
-    <main>
-      <BlogList posts={posts} />
+    <main className="min-h-screen max-w-7xl mx-auto">
+      <div className="mt-24">
+        <BlogList posts={posts} />
+      </div>
     </main>
   );
 }

@@ -6,7 +6,7 @@ export const metadata = {
   description: "The Team Behind the Blog",
 };
 
-export default function Example() {
+export default function TeamCards() {
   return (
     <div className="bg-white py-24 sm:py-32 min-h-screen">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
