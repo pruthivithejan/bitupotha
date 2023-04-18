@@ -37,7 +37,7 @@ export default function TeamCards() {
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
                     {person.name}
                   </h3>
-                  <p className="text-sm font-semibold leading-6 text-indigo-600">
+                  <p className="text-sm font-semibold leading-6 text-emerald-600">
                     {person.role}
                   </p>
                   <p className="text-sm font-semibold leading-6 text-slate-500">

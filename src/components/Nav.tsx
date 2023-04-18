@@ -4,9 +4,9 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Blog", href: "/blog" },
-  { name: "Join", href: "/join" },
-  { name: "Team", href: "/team" },
+  { name: "බ්ලොගය", href: "/blog" },
+  { name: "එකතු වෙන්න", href: "/join" },
+  { name: "කණ්ඩායම", href: "/team" },
 ];
 
 export default function Nav() {
