@@ -5,7 +5,7 @@ const Navbar = (props: any) => {
   return (
     <div>
       <div className="flex items-center justify-between p-5">
-        <Link href="/" className="text-slate-900 flex items-center">
+        <Link href="/blog" className="text-slate-900 flex items-center">
           <ArrowUturnLeftIcon className="h-6 w-6 mr-2 text-slate-900" />
           ආපසු වෙබ් අඩවියට
         </Link>
@@ -26,7 +26,7 @@ const Navbar = (props: any) => {
           </svg>
           සේවාදායකය හා සම්බන්ධ වන්න{" "}
           <a
-            href="https://discord.gg/dQxJhFFP"
+            href="https://discord.gg/4eeurUVvTy"
             className="font-semibold text-indigo-600"
             target="_blank"
           >

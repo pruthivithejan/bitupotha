@@ -35,7 +35,7 @@ const BlogList = ({ posts }: Props) => {
                   </div>
                   <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
                     {post.categories.map((category) => (
-                      <div className="text-center text-black bg-green-500 px-3 py-1 rounded-full text-sm font-semibold">
+                      <div className="text-center text-black bg-emerald-500 px-3 py-1 rounded-full text-sm font-semibold">
                         <p>{category.title}</p>
                       </div>
                     ))}
@@ -51,7 +51,7 @@ const BlogList = ({ posts }: Props) => {
                 <p className="line-clamp-2 text-gray-500">{post.description}</p>
               </div>
               <p className="mt-5 font-bold flex items-center group-hover:underline">
-                Read Post
+                කියවන්න
                 <ArrowUpRightIcon className="ml-2 h-4 w-4" />
               </p>
             </div>

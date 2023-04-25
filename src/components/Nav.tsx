@@ -21,7 +21,7 @@ export default function Nav() {
         >
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">බිටුපොත</span>
               <img className="h-8 w-auto" src="/logo.svg" alt="Logo" />
             </a>
           </div>
@@ -51,7 +51,7 @@ export default function Nav() {
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Log in <span aria-hidden="true">&rarr;</span>
+              ඇතුල් වන්න <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
@@ -65,12 +65,8 @@ export default function Nav() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                <span className="sr-only">බිටුපොත</span>
+                <img className="h-8 w-auto" src="/logo.svg" alt="Logo" />
               </a>
               <button
                 type="button"
@@ -99,7 +95,7 @@ export default function Nav() {
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Log in
+                    ඇතුල් වන්න
                   </a>
                 </div>
               </div>

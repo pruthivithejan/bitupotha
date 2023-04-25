@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-white dark:bg-slate-900">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -107,8 +107,9 @@ export default function Footer() {
               <span className="sr-only">Facebook page</span>
             </a>
             <a
-              href="#"
+              href="https://t.me/bitupotha"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              target="_blank"
             >
               <svg
                 className="w-5 h-5"
@@ -125,8 +126,9 @@ export default function Footer() {
               <span className="sr-only">Telegram channel</span>
             </a>
             <a
-              href="#"
+              href="https://t.me/bitupotha"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              target="_blank"
             >
               <svg
                 className="w-5 h-5"
@@ -158,8 +160,9 @@ export default function Footer() {
               <span className="sr-only">GitHub account</span>
             </a>
             <a
-              href="#"
+              href="https://discord.gg/e7pQB8Sn"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              target="_blank"
             >
               <svg
                 className="w-5 h-5"
